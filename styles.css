@@ -1,13 +1,13 @@
 :root {
   --olive: #283618;
   --olive-2: #606c38;
-  --pastel: #cbd8b8;
-  --pastel-2: #e8eddc;
+  --pastel: #6e7a4f;
+  --pastel-2: #98a576;
   --brown: #4e2c0e;
   --ink: #171915;
   --muted: #6b7068;
-  --paper: #f5f3ec;
-  --white: #fffdf8;
+  --paper: #fefae0;
+  --white: #fff9ef;
   --line: rgba(23, 25, 21, .13);
   --radius: 2px;
   --max: 1180px;
