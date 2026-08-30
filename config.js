@@ -10,7 +10,7 @@ const EVENT_CONFIG = {
 
   // Substitua pelo endereço real da igreja.
   address: "Endereço da igreja, Estrada Antônio Cícero de Souza, n° 305 - Cabuçu - Itaboraí - RJ",
-  mapsUrl: "https://share.google/DS5g6c2kwUcFRWZqU",
+  mapsUrl: "https://maps.app.goo.gl/TCbEH7TFTc8B7pDu6?g_st=ic",
 
   social: {
     instagram: "https://www.instagram.com/ieccabucu?igsi=aHA2eGU4bGdpNGRs&utm_source=qr",
