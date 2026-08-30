@@ -4,18 +4,18 @@
 */
 const EVENT_CONFIG = {
   name: "Liberta Cabuçu 2026",
-  startDate: "2026-09-26T19:00:00-03:00", // horário inicial editável
+  startDate: "2026-09-26T18:00:00-03:00", // horário inicial editável
   dateLabel: "26 e 27 de setembro de 2026",
   locationLabel: "Cabuçu — São Gonçalo/RJ",
 
   // Substitua pelo endereço real da igreja.
-  address: "Endereço da igreja, Cabuçu — São Gonçalo/RJ",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cabu%C3%A7u%2C%20S%C3%A3o%20Gon%C3%A7alo%20RJ",
+  address: "Endereço da igreja, Estrada Antônio Cícero de Souza, n° 305 - Cabuçu - Itaboraí - RJ",
+  mapsUrl: "https://share.google/DS5g6c2kwUcFRWZqU",
 
   social: {
-    instagram: "https://instagram.com/",
-    facebook: "https://facebook.com/",
-    whatsapp: "https://wa.me/"
+    instagram: "https://www.instagram.com/ieccabucu?igsi=aHA2eGU4bGdpNGRs&utm_source=qr",
+    facebook: "https://www.facebook.com/share/1PRXLqeRiR/?mibextid=wwXIfr",
+    whatsapp: "https://wa.me/(21) 4114-1549"
   },
 
   shareMessage:
