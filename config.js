@@ -6,7 +6,7 @@ const EVENT_CONFIG = {
   name: "Liberta Cabuçu 2026",
   startDate: "2026-09-26T18:00:00-03:00", // horário inicial editável
   dateLabel: "26 e 27 de setembro de 2026",
-  locationLabel: "Cabuçu — São Gonçalo/RJ",
+  locationLabel: "Estrada Antônio Cícero de Souza, n° 305 - Cabuçu - Itaboraí - RJ",
 
   // Substitua pelo endereço real da igreja.
   address: "Endereço da igreja, Estrada Antônio Cícero de Souza, n° 305 - Cabuçu - Itaboraí - RJ",
@@ -19,7 +19,7 @@ const EVENT_CONFIG = {
   },
 
   shareMessage:
-    "Oi! Queria te convidar para o Liberta Cabuçu 2026. Vai acontecer nos dias 26 e 27 de setembro, em Cabuçu — São Gonçalo/RJ. É um encontro aberto para todo mundo. Vem com a gente! ",
+    "Oi! Queria te convidar para o Liberta Cabuçu 2026. Vai acontecer nos dias 26 e 27 de setembro, na Igreja Evangélica Congregacional de Cabuçu. É um encontro aberto para todo mundo. Vem com a gente! ",
 
   schedule: [
     {
