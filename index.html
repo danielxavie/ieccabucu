@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#27352A">
+  <meta name="description" content="Participe do Liberta Cabuçu 2026, uma programação evangelística especial nos dias 26 e 27 de setembro, em Cabuçu, São Gonçalo/RJ.">
+  <meta property="og:title" content="Liberta Cabuçu 2026 | 26 e 27 de Setembro">
+  <meta property="og:description" content="Liberdade para viver. Esperança para recomeçar. 26 e 27 de setembro, em Cabuçu — São Gonçalo/RJ.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <title>Liberta Cabuçu 2026 | 26 e 27 de Setembro</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#topo" aria-label="Liberta Cabuçu 2026 — início">
+        <span class="brand-liberta">LIBER<span class="brand-cross" aria-hidden="true">T</span>A</span>
+        <span class="brand-cabucu">CABUÇU</span>
+        <span class="brand-year">2026</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#programacao">Programação</a>
+        <a href="#convide">Convide</a>
+        <a href="#localizacao">Localização</a>
+        <a class="nav-cta" href="#participar">Eu vou</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">26 + 27 DE SETEMBRO · CABUÇU — SÃO GONÇALO/RJ</p>
+          <h1 id="hero-title">Liberdade para<br><em>viver.</em></h1>
+          <p class="hero-lead">Esperança para recomeçar.</p>
+          <p class="hero-description">Um encontro para quem quer conhecer, respirar novos ares e descobrir que sempre existe um caminho para recomeçar.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#participar">Quero participar <span aria-hidden="true">↗</span></a>
+            <button class="button button-ghost" data-share="hero">Convidar alguém <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+
+        <div class="countdown-card reveal" aria-label="Contagem regressiva para o início do Liberta Cabuçu 2026">
+          <div class="countdown-top">
+            <span>FALTAM</span>
+            <span class="live-dot">INÍCIO DO LIBERTA</span>
+          </div>
+          <div id="countdown" class="countdown" aria-live="polite">
+            <div class="time-unit"><strong id="days">00</strong><span>dias</span></div>
+            <div class="time-separator">:</div>
+            <div class="time-unit"><strong id="hours">00</strong><span>horas</span></div>
+            <div class="time-separator">:</div>
+            <div class="time-unit"><strong id="minutes">00</strong><span>minutos</span></div>
+            <div class="time-separator">:</div>
+            <div class="time-unit"><strong id="seconds">00</strong><span>segundos</span></div>
+          </div>
+          <div id="event-live" class="event-live" hidden>
+            <span>É HOJE.</span>
+            <small>O LIBERTA COMEÇOU!</small>
+          </div>
+          <p class="countdown-date">26 de setembro de 2026</p>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Rolar para a seção sobre">↓</a>
+    </section>
+
+    <section class="intro section" id="sobre">
+      <div class="container intro-grid">
+        <div class="section-number reveal">01 <span>/</span> 07</div>
+        <div class="intro-heading reveal">
+          <p class="eyebrow">SOBRE O LIBERTA</p>
+          <h2>Um convite para<br><em>viver algo novo.</em></h2>
+        </div>
+        <div class="intro-copy reveal">
+          <p>O Liberta é um espaço para encontrar pessoas, ouvir histórias, celebrar a vida e conhecer um Deus que acolhe sem exigir que você tenha tudo resolvido.</p>
+          <p>Dois dias de fé, música, conversa e comunidade — para quem já caminha conosco e para quem está chegando pela primeira vez.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="program section section-dark" id="programacao">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-light">02 / PROGRAMAÇÃO</p>
+            <h2>Dois dias.<br><em>Uma experiência.</em></h2>
+          </div>
+          <p class="section-note">A programação abaixo é editável no arquivo <strong>config.js</strong>.</p>
+        </div>
+        <div id="schedule" class="schedule-grid"></div>
+      </div>
+    </section>
+
+    <section class="reasons section" id="participar">
+      <div class="container">
+        <div class="section-head centered reveal">
+          <p class="eyebrow">03 / POR QUE PARTICIPAR?</p>
+          <h2>Chegue como você está.<br><em>Viva o que vier.</em></h2>
+        </div>
+        <div class="reason-grid">
+          <article class="reason-card reveal">
+            <span class="reason-index">01</span>
+            <h3>Conhecer</h3>
+            <p>Gente nova, histórias reais e uma comunidade pronta para receber você.</p>
+          </article>
+          <article class="reason-card reveal">
+            <span class="reason-index">02</span>
+            <h3>Viver</h3>
+            <p>Momentos de música, reflexão, fé e encontros que ficam na memória.</p>
+          </article>
+          <article class="reason-card reveal">
+            <span class="reason-index">03</span>
+            <h3>Recomeçar</h3>
+            <p>Talvez tudo o que você precisava era de um lugar para começar de novo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="invite section" id="convide">
+      <div class="container invite-grid">
+        <div class="invite-mark reveal" aria-hidden="true">+</div>
+        <div class="invite-copy reveal">
+          <p class="eyebrow">04 / FAÇA PARTE DISSO</p>
+          <h2>Não vá<br><em>sozinho.</em></h2>
+          <p>Tem alguém que precisa ouvir que existe esperança? Envie o Liberta. Um convite simples pode ser o começo de uma história inteira.</p>
+          <button class="button button-dark" data-share="invite">Compartilhar o Liberta <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section section-dark" id="localizacao">
+      <div class="container location-grid">
+        <div class="location-copy reveal">
+          <p class="eyebrow eyebrow-light">05 / LOCALIZAÇÃO</p>
+          <h2>Vem com<br><em>a gente.</em></h2>
+          <p id="address-text"></p>
+          <a id="maps-link" class="text-link" target="_blank" rel="noopener noreferrer">Como chegar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="map-frame reveal">
+          <div class="map-placeholder">
+            <span class="map-cross" aria-hidden="true">+</span>
+            <p>Cabuçu<br><small>São Gonçalo · RJ</small></p>
+            <a id="maps-link-card" target="_blank" rel="noopener noreferrer">Abrir no mapa ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-heading reveal">
+          <p class="eyebrow">06 / DÚVIDAS</p>
+          <h2>Você pergunta.<br><em>A gente responde.</em></h2>
+        </div>
+        <div id="faq-list" class="faq-list reveal"></div>
+      </div>
+    </section>
+
+    <section class="final-cta section" id="final">
+      <div class="container final-inner reveal">
+        <p class="eyebrow">LIBERTA CABUÇU 2026</p>
+        <h2>Talvez o seu<br><em>recomeço</em><br>comece aqui.</h2>
+        <p>26 + 27 DE SETEMBRO · CABUÇU — SÃO GONÇALO/RJ</p>
+        <a class="button button-light" href="#participar">Eu vou <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#topo" aria-label="Voltar ao início">
+          <span class="brand-liberta">LIBER<span class="brand-cross" aria-hidden="true">T</span>A</span>
+          <span class="brand-cabucu">CABUÇU</span>
+          <span class="brand-year">2026</span>
+        </a>
+        <p>Um evento para todos.</p>
+      </div>
+      <div class="footer-meta">
+        <p>26 e 27 de setembro de 2026</p>
+        <p>São Gonçalo — RJ</p>
+      </div>
+      <div class="footer-links">
+        <a id="instagram-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a id="facebook-link" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a id="whatsapp-link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="#localizacao">Localização</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>LIBERTA CABUÇU 2026</span>
+      <span>Feito para acolher. Criado para convidar.</span>
+    </div>
+  </footer>
+
+  <div id="share-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="share-title">
+      <button class="modal-close" data-close-modal aria-label="Fechar">×</button>
+      <p class="eyebrow">COMPARTILHE</p>
+      <h2 id="share-title">Leve o Liberta<br><em>com você.</em></h2>
+      <div class="share-actions">
+        <a id="share-whatsapp" class="share-option" target="_blank" rel="noopener noreferrer"><span>WA</span> WhatsApp <b>↗</b></a>
+        <button id="share-copy" class="share-option"><span>⧉</span> Copiar link <b>↗</b></button>
+        <button id="share-native" class="share-option"><span>↑</span> Compartilhar <b>↗</b></button>
+      </div>
+      <p id="copy-status" class="copy-status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
